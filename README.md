@@ -1,10 +1,10 @@
-# Execution queue [![Build Status](https://travis-ci.org/tranvansang/execution-queue.svg?branch=master)](https://travis-ci.org/tranvansang/execution-queue)
-[![NPM](https://nodei.co/npm/execution-queue.png)](https://nodei.co/npm/execution-queue/)
+# Execution queue [![Build Status](https://travis-ci.org/tranvansang/execution-queue.svg?branch=master)](https://travis-ci.org/tranvansang/make-queue)
+[![NPM](https://nodei.co/npm/make-queue.png)](https://nodei.co/npm/make-queue/)
 
-Execute async callbacks in the right orders.
+Execute async callbacks in the correct orders.
 
 ## API reference
-There is only one function from default import
+There is only one function from the default import
 
 ```javascript
 import makeQueue from 'make-queue'
