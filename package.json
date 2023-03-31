@@ -1,6 +1,6 @@
 {
   "name": "make-queue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Execute async callbacks in the correct orders",
   "main": "index.js",
   "repository": "https://github.com/tranvansang/make-queue",
