@@ -8,12 +8,13 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc --declaration index.ts",
+    "build": "tsc --declaration --sourceMap index.ts",
     "test": "yarn build && jest --coverage test.js"
   },
   "files": [
     "index.js",
-    "index.d.ts"
+    "index.d.ts",
+    "index.js.map"
   ],
   "keywords": [
     "promise",
