@@ -4,7 +4,7 @@
   "description": "Execute async callbacks in the correct orders",
   "main": "index.js",
   "repository": "https://github.com/tranvansang/make-queue",
-  "author": "transang",
+  "author": "Sang Tran <t@sang.jp>",
   "license": "MIT",
   "private": false,
   "scripts": {
