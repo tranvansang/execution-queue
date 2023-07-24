@@ -1,6 +1,6 @@
 {
   "name": "make-queue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Execute async callbacks in the correct orders",
   "main": "index.js",
   "repository": "https://github.com/tranvansang/make-queue",
@@ -8,13 +8,19 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc --declaration --sourceMap index.ts",
-    "test": "yarn build && jest --coverage test.js"
+    "test": "node test.js && node test.mjs"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs"
+    }
   },
   "files": [
     "index.js",
     "index.d.ts",
-    "index.js.map"
+    "index.mjs",
+    "index.d.mts"
   ],
   "keywords": [
     "promise",
@@ -22,11 +28,5 @@
     "queue",
     "async",
     "await"
-  ],
-  "devDependencies": {
-    "@babel/preset-env": "^7.10.4",
-    "jest": "^26.1.0",
-    "regenerator-runtime": "^0.13.5",
-    "typescript": "^3.9.7"
-  }
+  ]
 }

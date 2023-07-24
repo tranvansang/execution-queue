@@ -1,6 +1,6 @@
 export default function makeQueue(skipError = true) {
-	let run: Promise<void>
-	return <T>(cb: () => T) => run = (async () => {
+	let run
+	return cb => run = (async () => {
 		try {
 			await run
 		} catch (e) {

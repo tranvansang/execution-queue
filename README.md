@@ -8,6 +8,8 @@ There is only one function from the default import
 
 ```javascript
 import makeQueue from 'make-queue'
+// or
+const makeQueue = require('make-queue')
 ```
 
 - `const queue = makeQueue(skipError)`: create a new queue `queue`. Default: `skipError = true`.
